@@ -52,6 +52,14 @@
       "parents": [
         "0d1f4deb"
       ]
+    },
+    "2ae4fe06": {
+      "id": "2ae4fe06",
+      "pid": "5f2fa798",
+      "path": "jade\\base\\_mixins.jade",
+      "parents": [
+        "0d1f4deb"
+      ]
     }
   },
   "images": {},

@@ -6,6 +6,7 @@
 
 include ../base/_config
 include ../base/_dependencies
+include ../base/_mixins
 
 append config
 	- var siteTitle = "Corkout"
@@ -37,7 +38,7 @@ html
 			+addModernizrCDN
 			+addRespondJs
 			+addRespondJsCDN
-	body
+	body( class=classesBody )
 		block body
 
 	//JAVASCRIPTS

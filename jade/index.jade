@@ -5,14 +5,29 @@
 //-********************************************************************************
 
 extends extends/_extend_index
+
 append config
 	-var pageTitle = "PAGE TITLE"
 	-var pageMetaDesc = "PAGE DESCRIPTION"
 
-prepend headTitle
-	| #{pageWelcome}
-append headTitle
-	| #{pageTitle}
 append HeadCss
 	link( href=pathPageCss, rel="stylesheet", type="text/css" )
+
+block body
+	+generNavMenu([
+		{ "title" : "[TOPITEM1]", "link" : "topitem1.html"},
+		{ "title" : "[TOPITEM2]", "link" : "topitem2.html",
+			"child": [
+				{ "title" : "[CHILDITEM1]", "link": "childitem1.html"},
+				{ "title" : "[CHILDITEM2]", "link": "childitem2.html"},
+				{ "title" : "[CHILDITEM3]", "link": "childitem3.html"},
+				{ "title" : "[CHILDITEM4]", "link": "childitem4.html"},
+				{ "title" : "[CHILDITEM5]", "link": "childitem5.html"}
+			]
+		},
+		{ "title" : "[TOPITEM3]", "link" : "topitem3.html"},
+		{ "title" : "[TOPITEM4]", "link" : "topitem4.html"},
+		{ "title" : "[TOPITEM5]", "link" : "topitem5.html"}
+	])
+
 
