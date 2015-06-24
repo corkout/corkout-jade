@@ -1,0 +1,18 @@
+//-********************************************************************************
+//---------------------------------------------------------------------------------
+//- Index.
+//---------------------------------------------------------------------------------
+//-********************************************************************************
+
+extends extends/_extend_index
+append config
+	-var pageTitle = "PAGE TITLE"
+	-var pageMetaDesc = "PAGE DESCRIPTION"
+
+prepend headTitle
+	| #{pageWelcome}
+append headTitle
+	| #{pageTitle}
+append HeadCss
+	link( href=pathPageCss, rel="stylesheet", type="text/css" )
+

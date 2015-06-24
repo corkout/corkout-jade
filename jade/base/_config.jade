@@ -1,0 +1,75 @@
+//-********************************************************************************
+//---------------------------------------------------------------------------------
+//- Config.
+//---------------------------------------------------------------------------------
+//-********************************************************************************
+
+block config
+	block siteConfig
+		- var siteTitle = "[DEFAULT SITE TITLE]"
+		- var siteMetaDesc = "[DEFAULT SITE DESCRIPTION]"
+		- var siteWelcome = "[DEFAULT SITE WELCOME]"
+	
+	block pageConfig	
+		- var pageTitle = "[DEFAULT PAGE TITLE]"
+		- var pageMetaDesc = "[DEFAULT PAGE DESCRIPTION]"
+	
+	//-============================================================
+	//- path
+	//-============================================================
+	
+	block pathSiteConfig
+		- var pathSite = "../"
+	block pathPageConfig
+		- var pathPage = ""
+	
+	block pathLocal
+		- var pathBower = pathSite + pathPage + "bower_components/"
+		- var pathCss = pathSite + pathPage +"css/styles.css"
+		- var pathPageCss = pathSite + pathPage +"css/styles-page.css"
+		- var pathJs = pathSite + pathPage + "js/scripts.js"	
+	
+	block pathBower
+		- var pathNormalize = pathBower + "normalize.css/normalize.css"
+		- var pathModernizr = pathBower + "modernizr/modernizr.js"
+		- var pathRespondJs = pathBower + "respond/dest/respond.min.js"
+		- var pathJquery = pathBower + "jquery/dist/jquery.min.js"
+		- var pathBootstrapCss =  pathBower + "bootstrap/dist/css/bootstrap.min.css"
+		- var pathBootstrapJs = pathBower + "bootstrap/dist/js/bootstrap.min.js"
+	
+	block pathCDN
+		- var pathCDN = "//"
+		- var pathGoogleFontsCDN = pathCDN + "fonts.googleapis.com/css?family="
+		- var pathModernizrCDN = pathCDN + "cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+		- var pathRespondJsCDN = pathCDN + "cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"
+		- var pathJqueryCDN = pathCDN + "ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+		- var pathBootstrapCssCDN =  pathCDN + "maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+		- var pathBootstrapJsCDN = pathCDN + "maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+	
+	
+	
+	//-============================================================
+	//- switchers
+	//-============================================================
+	
+	- var addCss = true
+	- var addPageCss = true
+	- var addJs = true
+	
+	- var addGoogleFontsCDN = true
+	- var addGoogleFontsCDN = "[GoogleFontName]"
+	
+	- var addNormalize = true
+	- var addModernizr = true
+	- var addModernizrCDN = true
+	- var addRespondJs = true
+	- var addRespondJsCDN = true
+	- var addJquery = true
+	- var addJqueryCDN = true
+	
+	
+	- var addBootstrapCss = true
+	- var addBootstrapJs = true
+	- var addBootstrapCssCDN = true
+	- var addBootstrapJsCDN = true
+

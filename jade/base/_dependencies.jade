@@ -1,0 +1,95 @@
+//-********************************************************************************
+//---------------------------------------------------------------------------------
+//- Dependencies Mixins.
+//---------------------------------------------------------------------------------
+//-********************************************************************************
+ 
+mixin addCss
+	if addCss
+		//css
+		link( href=pathCss, rel="stylesheet", type="text/css"  )
+
+mixin addPageCss
+	if addPageCss
+		//page css
+		link( href=pathPageCss, rel="stylesheet", type="text/css"  )
+
+mixin addJs
+	if addJs
+		//js
+		link( href=pathJs, rel="stylesheet", type="text/css"  )
+
+
+
+
+//-----------------------------------------
+//- Fonts
+//-----------------------------------------
+
+
+mixin addGoogleFontsCDN
+	if addGoogleFontsCDN
+		//google fonts
+		link( href=pathGoogleFontsCDN + addGoogleFontsCDN, rel="stylesheet", type="text/css" )
+
+//-----------------------------------------
+//- CSS
+//-----------------------------------------
+
+mixin addNormalize
+	if addNormalize
+		//normalize
+		link( href=pathNormalize, rel="stylesheet", type="text/css"  )
+
+mixin addBootstrapCss
+	if addBootstrapCss
+		//bootstrap css
+		link( href=pathBootstrapCss, rel="stylesheet", type="text/css"  )
+
+mixin addBootstrapCssCDN
+	if addBootstrapCssCDN
+		//bootstrap css cdn
+		link( href=pathBootstrapCssCDN, rel="stylesheet", type="text/css"  )
+
+//-----------------------------------------
+//- Javascripts
+//-----------------------------------------
+
+mixin addModernizr
+	if addModernizr
+		// modernizr
+		script( href=pathModernizr )
+
+mixin addModernizrCDN
+	if addModernizrCDN
+		// modernizr cdn
+		script( href=pathModernizrCDN )
+
+mixin addRespondJs
+	if addRespondJs
+		// respondjs
+		script( href=pathRespondJs )
+
+mixin addRespondJsCDN
+	if addRespondJsCDN
+		// respondjs cdn
+		script( href=pathRespondJsCDN )
+
+mixin addJquery
+	if addJquery
+		// jquery
+		script( href=pathJquery )
+mixin addJqueryCDN
+	if addJqueryCDN
+		// jquery cdn
+		script( href=pathJqueryCDN )
+
+mixin addBootstrapJs
+	if addBootstrapJs
+		//bootstrap javascript
+		script( href=pathBootstrapJs )
+
+mixin addBootstrapJsCDN
+	if addBootstrapJsCDN
+		//bootstrap javascript cdn
+		script( href=pathBootstrapJsCDN )

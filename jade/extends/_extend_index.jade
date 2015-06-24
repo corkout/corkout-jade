@@ -1,0 +1,48 @@
+//-********************************************************************************
+//---------------------------------------------------------------------------------
+//- Extend Index.
+//---------------------------------------------------------------------------------
+//-********************************************************************************
+
+include ../base/_config
+include ../base/_dependencies
+
+append config
+	- var siteTitle = "Corkout"
+	- var siteMetaDesc = "This is Corkout Project"
+	- var siteWelcome = "Welcome to "
+
+doctype
+html
+	head
+		block headtitle
+			title
+				| #{siteWelcome}#{siteTitle} | #{pageTitle}
+		block headMeta
+			meta( charset="utf-8" )
+			meta( http-equiv="X-UA-Compatible", content="IE=edge" )
+			meta( name="viewport", content="width=device-width, initial-scale=1.0" )
+			meta( name="description", content=siteMetaDesc + " | "+ pageMetaDesc )
+		block headCss
+			//HEAD CSS
+			+addNormalize
+			+addBootstrapCss
+			+addBootstrapCssCDN
+			+addCss
+			+addPageCss
+			+addGoogleFontsCDN
+		block headJs
+			//HEAD JAVASCRIPTS
+			+addModernizr
+			+addModernizrCDN
+			+addRespondJs
+			+addRespondJsCDN
+	body
+		block body
+
+	//JAVASCRIPTS
+	+addJquery
+	+addJqueryCDN
+	+addBootstrapJs
+	+addBootstrapJsCDN
+	+addJs

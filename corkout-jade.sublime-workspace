@@ -1,0 +1,638 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cm",
+				"cm3	snip-jade-cm3"
+			],
+			[
+				"c",
+				"cmref	snip-styl-cmref"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"font",
+				"fontsize15on16"
+			],
+			[
+				"marg",
+				"margin-n"
+			],
+			[
+				"padding",
+				"padding-n"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jade/base/_config.jade",
+			"settings":
+			{
+				"buffer_size": 2037,
+				"line_ending": "Windows",
+				"name": "_config.jade"
+			}
+		},
+		{
+			"file": "jade/extends/_extend_index.jade",
+			"settings":
+			{
+				"buffer_size": 624,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jade/base/_dependencies.jade",
+			"settings":
+			{
+				"buffer_size": 1258,
+				"line_ending": "Windows",
+				"name": "_dependencies.jade"
+			}
+		},
+		{
+			"file": "html/index.html",
+			"settings":
+			{
+				"buffer_size": 988,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/_Github/corkout-jade",
+		"/D/_Github/corkout-jade/html",
+		"/D/_Github/corkout-jade/jade",
+		"/D/_Github/corkout-jade/jade/base",
+		"/D/_Github/corkout-jade/jade/extends"
+	],
+	"file_history":
+	[
+		"/D/_Github/corkout-jade/html/index.html",
+		"/C/Users/Cork/Desktop/jade/_extend-index.jade",
+		"/D/_Github/corkout-jade/corkout-jade.sublime-project",
+		"/C/Users/Cork/Desktop/jade/settings/_mixins.jade",
+		"/C/Users/Cork/AppData/Local/Temp/Rar$DIa0.809/index.jade",
+		"/C/Users/Cork/Desktop/jade/settings/_config.jade",
+		"/C/Users/Cork/Desktop/jade/index.jade",
+		"/C/Users/Cork/AppData/Local/Temp/Rar$DIa0.302/index.jade",
+		"/D/_Github/corkout-jade/jade/patterns/patterns.jade",
+		"/D/_Github/corkout-jade/jade/base/_mixins.jade",
+		"/C/Users/Cork/Desktop/jade/settings/_variables.jade",
+		"/D/_Github/corkout-jade/jade/extends/_index.jade",
+		"/C/Users/Cork/AppData/Local/Temp/Rar$DIa0.855/index.jade",
+		"/C/Users/Cork/AppData/Local/Temp/Rar$DIa0.625/_head.jade",
+		"/D/_Github/corkout-jade/jade/extends/_head.jade",
+		"/D/_Github/corkout-jade/jade/extends/_body.jade",
+		"/G/_Tutorial/TutsPlus Top-Speed HTML Development With Jade/Project Files/07/BasicPageStructure/jade/basicpage.jade",
+		"/D/_Github/corkout-jade/jade/_extend-index.jade",
+		"/G/_Tutorial/TutsPlus Top-Speed HTML Development With Jade/Project Files/07/BasicPageStructure/jade/doctype.jade",
+		"/G/_Tutorial/TutsPlus Top-Speed HTML Development With Jade/Project Files/06/TagAttributes/jade/addattributes.jade",
+		"/D/_Github/corkout-jade/jade/index.jade",
+		"/D/_Github/corkstyl/css/styles.css",
+		"/D/_Github/corkstyl/css/styles.styl",
+		"/D/_Github/corkstyl/css/base/_prefixes.styl",
+		"/D/_Github/corkstyl/css/base/_typography.styl",
+		"/D/_Github/corkstyl/css/base/_functions.styl",
+		"/D/_Github/corkstyl/css/base/_mixins.styl",
+		"/D/_Github/corkstyl/css/base/_colors.styl",
+		"/G/_Tutorial/Tutsplus - Become a CSS Superhero With Stylus, with Kezz Bracey (20140909)/SourceFiles-BecomeaCSSSuperheroWith Stylus/4. Practical Intro to Mixins/4.1 Create a _Zebra Stripe_ Mixin/ZebraStripe/stylus/example.styl",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-styl-cmdesc.sublime-snippet",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-styl-ks-radial-gradient.sublime-snippet",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-styl-ks-linear-gradient.sublime-snippet",
+		"/D/_Github/corkstyl/mixins/_zebra.styl",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-styl-ks-ratio-box.sublime-snippet",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-styl-ks-font-face.sublime-snippet",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-styl-cmusg.sublime-snippet",
+		"/D/_Github/corkstyl/css/base/_normalize.styl",
+		"/C/Users/Cork/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/styles.css",
+		"/C/Users/Cork/Desktop/Oxford American Writer's Thesaurus 2nd/oawt.css",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/dicts/_LMCD4.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/dicts/_OALD7.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/base/_variables-fonts.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/dicts/_ICIBA.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/base/_variables.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/card/_card.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/base/_variables-space.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiDicts/_raw/LMCD4Raw.css",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiDicts/_raw/OALD7Raw.css",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/dicts/_override.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/css/base/_variables-colors.scss",
+		"/D/_My Documents/Dropbox/_Study/_English/_Vocabulary/_dicts/OALD7Raw.css",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/_raw/OALD7Raw.scss",
+		"/D/_My Documents/Dropbox/_Anki/_AnkiCss/_raw/_LMCD4Raw.scss",
+		"/C/Users/Cork/Desktop/temp.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiCss/css/styles.css",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiCss/css/styles.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiCss/css/base/_variables.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiCss/_raw/_OALD7Raw.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiCss/_raw/_LMCD4Raw.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiDicts/_raw/OALD7Raw.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiDicts/_raw/LMCD4Raw.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiCss/bower.json",
+		"/G/#CloudDropBox/Dropbox/_Anki/_AnkiDicts/_raw/LMCD4Raw.css",
+		"/G/#cloudOneDrives/OneDrive/PC/Mdict/MDictPC/dict/Longman Dictionary of Comtemporary English 4E_20090601 {hugh} [ench]/Longman/LDOCE_4.css",
+		"/G/#CloudDropBox/Dropbox/_Anki/_ankidicts/OALD7Raw.css",
+		"/D/_Github/_CorkAnki/css/styles.css",
+		"/G/_BaiduDownload/朗文当代/LSC4.css",
+		"/D/_Github/_CorkAnki/css/styles.scss",
+		"/D/_Github/_CorkAnki/css/base/_card.scss",
+		"/C/Users/Cork/Desktop/Collins COBUILD (CN)/Collins COBUILD (CN)/CollinsEC.css",
+		"/D/_Github/_CorkAnki/css/dict-oald7/_dict.scss",
+		"/D/_Github/_CorkAnki/css/dict-lmcd4/base/_variables.scss",
+		"/D/_Github/_CorkAnki/css/dict-oald7/_variables.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_anki_Card/base/_variables.scss",
+		"/G/#CloudDropBox/Dropbox/_Anki/_anki_Card/card.scss",
+		"/D/_Github/_CorkAnki/css/dict-lmcd4/_dict.scss",
+		"/D/_Github/_CorkAnki/bower.json",
+		"/D/_Github/_CorkAnki/bower_components/normalize.css/normalize.css",
+		"/D/_Github/_CorkAnki/css/dict-collins/_variables.scss",
+		"/D/_Github/_CorkAnki/css/dict-collins/_dict.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BootstrapCss",
+			"addBootstrapCss",
+			"head",
+			"'",
+			"		\n",
+			"'",
+			"Headword_superscript",
+			"pos",
+			"Headword",
+			"8",
+			"margin3",
+			"3",
+			"margin.*px",
+			"margin19",
+			"19",
+			"margin.*px",
+			"_V_",
+			"$padding_V_",
+			"padding-bottom.*\\$",
+			"padding-top.*\\$",
+			"padding-top.*$",
+			"padding-top",
+			"margin_V_",
+			"_V_",
+			"$margin_V_",
+			"$margin_V-adjust",
+			"line-height",
+			";",
+			"$margin_V",
+			"margin_V_4",
+			"margin-bottom.*px",
+			"margin_V_8",
+			"8",
+			"margin-top.*px",
+			"line-height",
+			"line-height.*px",
+			"7.$padding5",
+			"6",
+			"*",
+			"padding8",
+			"8",
+			"padding.*px",
+			"padding8",
+			"padding.*px",
+			"\n$",
+			"*",
+			"padding4",
+			"4",
+			"padding.*px",
+			"\\r\\n\\r\\n",
+			"padding",
+			"7.$fontsize5",
+			"16",
+			"font-size.*px",
+			"24",
+			"fontsize16",
+			"16",
+			"font-size:.*px",
+			"font-size",
+			"fontsize16",
+			"16",
+			"font-size.*px",
+			"nataccep",
+			"英文",
+			"LMCD",
+			"OALD",
+			"OALD7",
+			"LMCD4",
+			"OALD7",
+			"LMCD4",
+			"lMCD4",
+			"#301530",
+			"$color-OALD7_2violet",
+			"$color_",
+			"$font",
+			"px",
+			"$color",
+			"$font",
+			"$",
+			"$color",
+			"$font",
+			"$color",
+			"$",
+			"font",
+			":",
+			"//",
+			"$",
+			";",
+			"//",
+			";",
+			"$",
+			";",
+			"$",
+			";",
+			"$",
+			"//",
+			";",
+			"$",
+			"//",
+			"/",
+			"//",
+			";",
+			"$",
+			"$blue",
+			"//",
+			";",
+			"$font",
+			"\"",
+			")",
+			"$",
+			"font",
+			"color",
+			"lmcd",
+			"$font",
+			"$color",
+			"olor",
+			"$",
+			"//",
+			"$",
+			"()",
+			"(",
+			"$",
+			"()",
+			"$",
+			"//",
+			"$",
+			":",
+			"MediumVioletRed"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"\\r\\n",
+			"",
+			"$1",
+			"",
+			"\\t",
+			"n",
+			"\\t",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "jade/base/_config.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1874,
+								1874
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_config.jade",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "jade/extends/_extend_index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "jade/base/_dependencies.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								735,
+								720
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_dependencies.jade",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.505931198102,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "corkout-jade.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"raw",
+				"ref\\LMCD4Raw.css"
+			],
+			[
+				"va",
+				"base\\_variables.scss"
+			],
+			[
+				"",
+				"dicts\\_LMCD4.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
